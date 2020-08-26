@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    font-family: 'Do Hyeon';
+}
+
+body {
+    background-color: #8d91ca;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+header {
+    background-color: #aaff33;
+}
+
+header h3{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #aaafff;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+ul {
+    border: solid black 2px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container {
+    background-color: #fff;
+    padding: .5em;
+}
